@@ -1,0 +1,1 @@
+document.getElementById("days-before-dembel").textContent=function(e){e.setFullYear(e.getFullYear()+1);const t=(e-new Date)/864e5;return t>0?Math.floor(t):"Урааа! Урааа! Урааааааааа!"}(new Date(2024,9,24));
